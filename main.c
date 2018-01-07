@@ -1,9 +1,12 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-int main() {
+#include "calc.h"
 
-	printf("Hello, World!\n");
+int main() {
+	char x[] = "123";
+
+	printf("Hello, World! %d\n", calc_fun(x,3));
 
 	return 0;
 }
